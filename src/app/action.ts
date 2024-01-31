@@ -1,3 +1,4 @@
+"use server";
 import { createCanvas, registerFont } from "canvas";
 import path from "path";
 
