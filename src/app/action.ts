@@ -1,11 +1,7 @@
 import { createCanvas, registerFont } from "canvas";
 import path from "path";
 
-// error on vercel
-const fontPath = path.resolve(
- process.cwd(),
- "assets/NotoSansJP-VariableFont_wght.ttf"
-);
+const fontPath = path.resolve(process.cwd(), "assets/NotoSansJP-Bold.ttf");
 
 registerFont(fontPath, {
  family: "NotoSansJP",
